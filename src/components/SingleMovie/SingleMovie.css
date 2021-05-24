@@ -1,0 +1,76 @@
+/* Gabor Catalin-Vasilica */
+.media {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  padding: 5px;
+  margin: 5px 0;
+  background-color: #282c34;
+  border-radius: 10px;
+  position: relative;
+  font-family: sans-serif;
+}
+
+.media:hover {
+  background-color: white;
+  color: black;
+}
+
+@media (max-width: 550px) {
+  .media {
+    width: 46%;
+  }
+}
+
+.poster {
+  border-radius: 10px;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  font-size: 17px;
+  padding: 8px 0;
+}
+
+.title-recomandat {
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
+  padding: 4px 0;
+  color: green;
+}
+
+.title-evitat {
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
+  padding: 4px 0;
+  color: red;
+}
+
+.subTitle {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 3px;
+  padding: 0 2px;
+  padding-bottom: 3px;
+}
+
+.badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  color: white;
+  background: black;
+}
+
+.green {
+  background-color: green;
+}
+
+.red {
+  background-color: red;
+}
