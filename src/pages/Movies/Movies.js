@@ -38,7 +38,7 @@ const Movies = () => {
           <input
             className='search-input'
             type='text'
-            placeholder='Search..'
+            placeholder='Cauta un film...'
             name='search'
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}

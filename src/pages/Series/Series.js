@@ -38,7 +38,7 @@ const Series = () => {
           <input
             className='search-input'
             type='text'
-            placeholder='Search..'
+            placeholder='Cauta un serial...'
             name='search'
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
